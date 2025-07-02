@@ -1,4 +1,3 @@
-# Analyze-Network-Traffic-Using-Wireshark
 # Network Traffic Analysis with Wireshark
 
 This guide provides a step-by-step process for capturing and analyzing live network traffic using Wireshark. It is designed for beginners in networking or cybersecurity.
