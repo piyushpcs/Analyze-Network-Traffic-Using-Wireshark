@@ -90,18 +90,17 @@ This view will clearly show protocols like **TCP, DNS, HTTP, TLS, ICMP, and ARP*
 
 ---
 
-## Deliverable 2: Sample Analysis Report
-
-Create a simple text file (`report.txt`) or a Markdown file (`report.md`) with your findings. Use the template below.
+## Sample Analysis Report
 
 ```markdown
 # Network Traffic Analysis Report
 
-**Date of Capture:** YYYY-MM-DD
+**Name: Piyush Kumar
+**Date of Capture: 2025-07-02
 
 **Summary of Activities Performed:**
 During the packet capture, the following actions were performed to generate network traffic:
-1.  Opened a web browser and navigated to `http://example.com`.
+1.  Opened a web browser and navigated to `http://httpforever.com/`.
 2.  Navigated to the secure site `https://google.com`.
 3.  Used the command prompt to ping the IP address `8.8.8.8`.
 
@@ -109,9 +108,9 @@ During the packet capture, the following actions were performed to generate netw
 
 Based on the analysis of the `MyFirstCapture.pcapng` file, the following primary protocols were identified:
 
-*   **DNS (Domain Name System):** Observed when the browser requested the IP addresses for `example.com` and `google.com`. This protocol is responsible for name-to-address resolution.
+*   **DNS (Domain Name System):** Observed when the browser requested the IP addresses for `httpforever.com/` and `google.com`. This protocol is responsible for name-to-address resolution.
 
-*   **HTTP (Hypertext Transfer Protocol):** Observed in clear text when requesting the webpage from `http://example.com`. This is the foundational protocol for the World Wide Web.
+*   **HTTP (Hypertext Transfer Protocol):** Observed in clear text when requesting the webpage from `http://httpforever.com/`. This is the foundational protocol for the World Wide Web.
 
 *   **TCP (Transmission Control Protocol):** This protocol was used to establish stable connections for both the HTTP and HTTPS web browsing sessions. It ensures reliable data delivery via a three-way handshake.
 
